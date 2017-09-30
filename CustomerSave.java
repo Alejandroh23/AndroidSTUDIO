@@ -64,7 +64,7 @@ public class CustomerSave extends Activity implements OnClickListener
             }
         }); //Cuando el usuario elija si borrar o no un cliente
     }
-    public void onClick(View v)
+    public  void onClick(View v)
     {
         String input = et.getText().toString();
         if(input.length() > 0)
